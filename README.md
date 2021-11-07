@@ -75,7 +75,7 @@ elif (checking) ==False:
 from requesck import check 
 
 username = "< username >"
-
+sessionid = "<sessionid>"
 response = check.getmail(str(username),str(sessionid))
 if str("'The resulting': 'True'") in str(response):
 	email = response["email"]
